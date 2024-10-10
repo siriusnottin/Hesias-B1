@@ -49,9 +49,8 @@ def end_game():
   arg = int(input('Play again? (0=no, 1=yes): '))
   if arg == 1:
     print('Restarting the game…')
-    return start_game()
+    start_game()
   elif arg == 0:
     print('Exiting…')
-    return None
 
 start_game()
